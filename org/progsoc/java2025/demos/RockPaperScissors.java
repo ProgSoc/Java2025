@@ -15,6 +15,11 @@ public class RockPaperScissors {
         System.out.println("The winner is: " + determineWinner(userChoice, computerChoice));
     }
 
+    /**
+     * Get user input using scanner
+     * 
+     * @return the user input (rock, paper, or scissors)
+     */
     public static String getUserInput() {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         String enteredText = scanner.nextLine();
@@ -28,6 +33,11 @@ public class RockPaperScissors {
         return enteredText;
     }
 
+    /**
+     * Get the computer's choice randomly
+     * 
+     * @return the computer's choice (rock, paper, or scissors)
+     */
     public static String getComputerChoice() {
         int random = (int) (Math.random() * 3);
         if (random == 0) {
