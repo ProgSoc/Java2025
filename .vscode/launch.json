@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UserInput",
+            "request": "launch",
+            "mainClass": "org.progsoc.java2025.UserInput",
+            "projectName": "Java2025_ac9f2625"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "org.progsoc.java2025.HelloWorld",
+            "projectName": "Java2025_ac9f2625"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
