@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayLoop",
+            "request": "launch",
+            "mainClass": "org.progsoc.java2025.basics.ArrayLoop",
+            "projectName": "Java2025_ac9f2625"
+        },
+        {
+            "type": "java",
             "name": "UserInput",
             "request": "launch",
             "mainClass": "org.progsoc.java2025.UserInput",

@@ -15,6 +15,6 @@ public class ArrayLoop {
         // Divide by the number of items to get the average
         double average = sum / numbers.length;
 
-        System.out.println("Average: " + average);
+        System.out.println("Average: " + average); // 2.5
     }
 }
